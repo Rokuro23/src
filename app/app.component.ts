@@ -23,7 +23,7 @@ export class AppComponent {
     //Tienda de la pagina
     { title: 'Tienda', url: '/Tienda/tiendaShopdown', icon: 'storefront' },
     //Perfil
-    { title: 'Perfil', url: '/folder/Trash', icon: 'person-circle' },
+    { title: 'Perfil', url: '/folder/Perfil', icon: 'person-circle' },
     
 
   ];

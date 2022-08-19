@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Login ShopDown', url: '/login/loginShopdown', icon: 'storefront' },
+    { title: 'Tienda ShopDown', url: '/Tienda/tiendaShopdown', icon: 'storefront' },
     { title: 'Register', url: '/Register/registerShopdown', icon: 'paper-plane' },
     { title: 'Favoritos', url: '/folder/Favoritos', icon: 'heart' },
     { title: 'Carro de Compras', url: '/folder/Carro', icon: 'cart' },

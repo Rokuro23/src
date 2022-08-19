@@ -124,3 +124,23 @@ ion-item.selected {
 ion-tab-button.selected {
   --color: #d17aff;
 }
+
+ion-toolbar {
+  --background:hwb(0 100% 0% / 0);
+  --color: #747474;
+  
+}
+
+
+
+ion-button.selected {
+  --color: #d17aff;
+}
+ion-menu-button {
+  color: #a600ff;
+}
+
+ion-title.toolbar {
+  text-align: center;
+  
+}

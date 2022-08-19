@@ -1,10 +1,11 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'app-login',
+    selector: 'app-tienda',
     templateUrl: 'tienda.component.html',
     styleUrls: ['tienda.component.scss'],
   })
   export class tiendaComponent {
         
+  
   }

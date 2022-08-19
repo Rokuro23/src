@@ -13,20 +13,26 @@ export class AppComponent {
     { title: 'Register', url: '/Register/registerShopdown', icon: 'paper-plane' },
     //Favoritos
     { title: 'Favoritos', url: '/folder/Favoritos', icon: 'heart' },
-    //Carro de Compras
-    { title: 'Carro de Compras', url: '/folder/Carro', icon: 'cart' },
+
     //
     { title: '', url: '/folder/Trash', icon: 'trash' },
     { title: '', url: '/folder/Spam', icon: 'warning' },
   ];
+
+
   public appBarra = [
     //Tienda de la pagina
     { title: 'Tienda', url: '/Tienda/tiendaShopdown', icon: 'storefront' },
     //Perfil
     { title: 'Perfil', url: '/folder/Perfil', icon: 'person-circle' },
-    
-
   ];
+
+  public appCarro = [
+    //Carro
+    { title: 'Carro', url: 'folder/Carro', icon: 'cart' },
+  ];
+
+
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }

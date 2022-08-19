@@ -26,27 +26,31 @@
         </ion-list>
       </ion-content>
     </ion-menu>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
+    <ion-router-outlet id="main-content">
 
 
-    
-    <ion-tabs>
+      <ion-tabs>
       
         <ion-tab-bar >
           <ion-tab-button auto-hide="false" *ngFor="let p of appBarra; let i = index" >
-            <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
-              <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
+            <ion-tab-button routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon  name ={{p.icon}}></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
 
-            </ion-item>
+            </ion-tab-button>
           </ion-tab-button>    
         </ion-tab-bar>
-      
+    
 
-   
-  </ion-tabs>
+ 
+      </ion-tabs>
+</ion-router-outlet>
+
+
+    
+    
 
 
   </ion-split-pane>
-  
+
 </ion-app>

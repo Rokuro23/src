@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  //barra del menu
   public appPages = [
     
     //Login De la pagina
@@ -19,17 +20,27 @@ export class AppComponent {
     { title: '', url: '/folder/Spam', icon: 'warning' },
   ];
 
-
+  //Barra de la vista principal
   public appBarra = [
     //Tienda de la pagina
     { title: 'Tienda', url: '/Tienda/tiendaShopdown', icon: 'storefront' },
+    //Tu-Tienda tienda del usuario
+    { title: 'Mi Tienda', url: '/Tu-Tienda/tu-tienda', icon: 'shirt-outline' },
     //Perfil
     { title: 'Perfil', url: '/folder/Perfil', icon: 'person-circle' },
+    
   ];
-
+  //Barra de arriba donde esta el titulo
   public appCarro = [
     //Carro
     { title: 'Carro', url: 'folder/Carro', icon: 'cart' },
+  ];
+  //Barra del menu de la barra del menu
+  public appBarraBarra = [
+    //Configuracion
+    { title: 'Configuracion', url: 'Configuracion/configuracion', icon: 'settings' },
+    //Ayuda
+    { title: 'Ayuda', url: 'Ayuda/ayuda', icon: 'help' },
   ];
 
 
